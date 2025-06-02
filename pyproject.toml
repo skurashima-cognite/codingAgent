@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cdf-file-uploader"
+version = "0.1.0"
+description = "A Python script to upload files to Cognite Data Fusion."
+authors = ["Jules <jules@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cognite-sdk = "^7.75.1"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
